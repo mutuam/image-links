@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: 5cm;
+        }
+        .menu{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            padding: 50px;
+           
+        }
+        .menu img{
+            max-width: 220px;
+            height: 5cm;
+            padding-bottom:150px;
+            
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+        <p>Explore technology, nature, and food!</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Discover the latest in technology!</p>
+        <a href="https://www.simplilearn.com/importance-of-technology-article"><img src="technology_image.png" alt="Technology"></a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.dreamstime.com/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-image131400332"><img src="nature_image1.png" alt="Nature 1"></a>
+            <a href="https://www.dreamstime.com/stock-photo-forest-path-throught-autumn-sunlight-image35843180"><img src="nature_image2.png" alt="Nature 2"></a>
+            <a href="https://www.dreamstime.com/stock-photo-trees-sunbeams-image-path-meadows-image36414750"><img src="nature_image3.png" alt="Nature 3"></a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu">
+           <a href="https://en.wikipedia.org/wiki/File:African_Dishes.jpg"><img src="food_image1.png" alt="Food 1"> Food Item 1</a>
+           <a href="https://www.greatbritishchefs.com/features/east-african-food-guide"><img src="food_image2.png" alt="Food 2"> Food Item 2</a>
+          <a href="https://tinybeans.com/best-african-food-recipes/"><img src="food_image3.png" alt="Food 3"> Food Item 3</a>
+     </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Image Links. All rights reserved.</p>
+    </footer>
+</body>
+</html>
